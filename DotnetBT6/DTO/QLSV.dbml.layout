@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLSV">
+  <DataContextMoniker Name="/QLSVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ddeed618-33a1-4258-b69a-8cc205fcbe3c" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/QLSVDataContext/LSH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4921767a-b49c-4850-a5de-69b0f414ebee" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1ab17be-116c-4aa4-aed1-bbeeccd06bfa" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/QLSVDataContext/SV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad6a4185-95b9-4c27-a0a1-992f17edfd94" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSVDataContext/LSH/LSH_SV" />
+      <nodes>
+        <classShapeMoniker Id="ddeed618-33a1-4258-b69a-8cc205fcbe3c" />
+        <classShapeMoniker Id="c1ab17be-116c-4aa4-aed1-bbeeccd06bfa" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
